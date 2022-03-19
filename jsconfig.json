@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "noImplicitAny": false,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./*"],
+      "components/*": ["./components/*"],
+      "utils/*": ["./utils/*"],
+      "layouts/*": ["./layouts/*"],
+      "styles/*": ["./styles/*"],
+      "designsystem/*": ["./designsystem/*"]
+    }
+  }
+}
