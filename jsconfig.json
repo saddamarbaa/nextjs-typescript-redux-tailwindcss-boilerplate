@@ -8,11 +8,19 @@
     "baseUrl": "./",
     "paths": {
       "@/*": ["./*"],
+      "pages/*": ["./pages/*"],
       "components/*": ["./components/*"],
+      "page-components/*": ["./page-components/*"],
       "utils/*": ["./utils/*"],
-      "layouts/*": ["./layouts/*"],
+      "layouts/*": ["./components/layouts*"],
       "styles/*": ["./styles/*"],
-      "designsystem/*": ["./designsystem/*"]
+      "designsystem/*": ["./designsystem/*"],
+      "types/*": ["./types/*"],
+      "tests/*": ["./tests/*"],
+      "services/*": ["./services/*"],
+      "contexts/*": ["./contexts/*"],
+      "constants/*": ["./constants/*"],
+      "global-states/*": ["./global-states/*"]
     }
   }
 }

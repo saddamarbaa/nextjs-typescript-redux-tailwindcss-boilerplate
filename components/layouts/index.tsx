@@ -1,13 +1,18 @@
-import React from 'react'
+import Head from 'next/head';
+
+import Navbar from './header/navbar';
 
 type Props = { children: React.ReactNode };
 
-const index: React.FC<Props> = ({ children }) => (
-  <>
-    {/* <Navbar /> */}
-    <main>{children}</main>
-    {/* <Footer /> */}
-  </>
-)
-
-export default index
+export function Layout({ children }: Props) {
+  return (
+    <>
+      <Head>
+        <title>Layouts Example</title>
+      </Head>
+      <Navbar />
+      <main>{children}</main>
+    </>
+  );
+}
+export default Layout;
